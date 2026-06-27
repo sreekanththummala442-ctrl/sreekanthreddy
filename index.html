@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jayatsena Express – International Courier Services from Hyderabad to 22+ countries. Fast, reliable & affordable courier for documents, parcels, excess baggage and cargo. Free home pickup.">
-  <meta name="keywords" content="international courier hyderabad, courier to usa from hyderabad, international courier service, document courier, student parcel service, excess baggage shipping">
+  <meta name="description"
+    content="Jayatsena Express – International Courier Services from Hyderabad to 22+ countries. Fast, reliable & affordable courier for documents, parcels, excess baggage and cargo. Free home pickup.">
+  <meta name="keywords"
+    content="international courier hyderabad, courier to usa from hyderabad, international courier service, document courier, student parcel service, excess baggage shipping">
   <meta property="og:title" content="Jayatsena Express – International Courier Services From Hyderabad">
-  <meta property="og:description" content="Delivering Trust Across Borders. Fast, reliable courier from Hyderabad to 22+ countries.">
+  <meta property="og:description"
+    content="Delivering Trust Across Borders. Fast, reliable courier from Hyderabad to 22+ countries.">
   <meta property="og:type" content="website">
- <link rel="icon" href="/logo.jpeg" type="image/x-icon">
+  <link rel="icon" href="/logo.jpeg" type="image/x-icon">
   <title>Jayatsena Express | International Courier Services From Hyderabad | 22+ Countries</title>
-  
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -33,8 +37,13 @@
   </script>
 
   <style>
-    /* ===== RESET & TOKENS ===== */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     :root {
       --navy: #0B3D91;
@@ -55,12 +64,15 @@
       --radius-sm: 6px;
       --radius: 12px;
       --radius-lg: 20px;
-      --shadow: 0 4px 20px rgba(11,61,145,0.10);
-      --shadow-lg: 0 8px 40px rgba(11,61,145,0.15);
+      --shadow: 0 4px 20px rgba(11, 61, 145, 0.10);
+      --shadow-lg: 0 8px 40px rgba(11, 61, 145, 0.15);
       --transition: 0.25s ease;
     }
 
-    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
 
     body {
       font-family: var(--font);
@@ -71,8 +83,16 @@
       overflow-x: hidden;
     }
 
-    img { max-width: 100%; height: auto; display: block; }
-    a { text-decoration: none; color: inherit; }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
     /* ===== LAYOUT ===== */
     .container {
@@ -81,8 +101,13 @@
       padding: 0 20px;
     }
 
-    .section { padding: 60px 0; }
-    .section-alt { background: var(--off-white); }
+    .section {
+      padding: 60px 0;
+    }
+
+    .section-alt {
+      background: var(--off-white);
+    }
 
     .section-label {
       font-size: 13px;
@@ -101,7 +126,9 @@
       margin-bottom: 14px;
     }
 
-    .section-title.white { color: var(--white); }
+    .section-title.white {
+      color: var(--white);
+    }
 
     .section-sub {
       font-size: clamp(15px, 2vw, 17px);
@@ -109,14 +136,18 @@
       max-width: 600px;
     }
 
-    .section-sub.white { color: rgba(255,255,255,0.75); }
+    .section-sub.white {
+      color: rgba(255, 255, 255, 0.75);
+    }
 
     .section-header {
       text-align: center;
       margin-bottom: 48px;
     }
 
-    .section-header .section-sub { margin: 0 auto; }
+    .section-header .section-sub {
+      margin: 0 auto;
+    }
 
     /* ===== BUTTONS ===== */
     .btn {
@@ -140,28 +171,45 @@
       color: var(--white);
       border-color: var(--red);
     }
-    .btn-primary:hover { background: var(--red-dark); border-color: var(--red-dark); transform: translateY(-1px); }
+
+    .btn-primary:hover {
+      background: var(--red-dark);
+      border-color: var(--red-dark);
+      transform: translateY(-1px);
+    }
 
     .btn-secondary {
       background: transparent;
       color: var(--white);
-      border-color: rgba(255,255,255,0.6);
+      border-color: rgba(255, 255, 255, 0.6);
     }
-    .btn-secondary:hover { background: rgba(255,255,255,0.12); border-color: var(--white); }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--white);
+    }
 
     .btn-whatsapp {
       background: #1eb356;
       color: var(--white);
       border-color: #25D366;
     }
-    .btn-whatsapp:hover { background: #1eb356; transform: translateY(-1px); }
+
+    .btn-whatsapp:hover {
+      background: #1eb356;
+      transform: translateY(-1px);
+    }
 
     .btn-outline {
       background: transparent;
       color: var(--navy);
       border-color: var(--navy);
     }
-    .btn-outline:hover { background: var(--navy); color: var(--white); }
+
+    .btn-outline:hover {
+      background: var(--navy);
+      color: var(--white);
+    }
 
     /* ===== FLOATING BUTTONS ===== */
     .float-cta {
@@ -182,12 +230,15 @@
       align-items: center;
       justify-content: center;
       font-size: 22px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
       transition: var(--transition);
       cursor: pointer;
       background: white;
     }
-    .float-btn:hover { transform: scale(1.1); }
+
+    .float-btn:hover {
+      transform: scale(1.1);
+    }
 
     /* ===== ANNOUNCEMENT BAR ===== */
     .announce-bar {
@@ -206,7 +257,7 @@
       z-index: 999;
       background: var(--white);
       border-bottom: 1.5px solid var(--gray-100);
-      box-shadow: 0 2px 12px rgba(11,61,145,0.07);
+      box-shadow: 0 2px 12px rgba(11, 61, 145, 0.07);
     }
 
     .header-inner {
@@ -224,21 +275,13 @@
       flex-shrink: 0;
     }
 
-    .logo-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      overflow: hidden;
-      flex-shrink: 0;
-    }
-    .logo-icon img { width: 100%; height: 100%; object-fit: cover; }
-
     .logo-text-main {
       font-size: 18px;
       font-weight: 900;
       letter-spacing: -0.5px;
       line-height: 1;
     }
+
     .logo-text-sub {
       font-size: 10px;
       font-weight: 600;
@@ -263,7 +306,11 @@
       transition: var(--transition);
       white-space: nowrap;
     }
-    .nav a:hover { background: var(--gray-50); color: var(--navy); }
+
+    .nav a:hover {
+      background: var(--gray-50);
+      color: var(--navy);
+    }
 
     .hamburger {
       display: none;
@@ -276,6 +323,7 @@
       gap: 5px;
       flex-shrink: 0;
     }
+
     .hamburger span {
       display: block;
       width: 22px;
@@ -296,7 +344,10 @@
       gap: 6px;
       overflow-y: auto;
     }
-    .nav-mobile.open { display: flex; }
+
+    .nav-mobile.open {
+      display: flex;
+    }
 
     .nav-mobile-close {
       background: none;
@@ -322,13 +373,16 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(10,20,40,0.72);
+      background: rgba(10, 20, 40, 0.72);
       z-index: 10000;
       align-items: center;
       justify-content: center;
       padding: 20px;
     }
-    .popup-overlay.show { display: flex; }
+
+    .popup-overlay.show {
+      display: flex;
+    }
 
     .popup-box {
       background: var(--white);
@@ -357,43 +411,124 @@
       justify-content: center;
     }
 
-    .popup-emoji { font-size: 48px; margin-bottom: 14px; }
-    .popup-box h2 { font-size: 20px; font-weight: 800; color: var(--navy); }
-    .popup-box h3 { font-size: 17px; font-weight: 800; color: var(--navy); margin: 8px 0; }
-    .popup-box p { font-size: 14px; color: var(--gray-500); margin-bottom: 24px; line-height: 1.6; }
+    .popup-emoji {
+      font-size: 48px;
+      margin-bottom: 14px;
+    }
+
+    .popup-box h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .popup-box h3 {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 8px 0;
+    }
+
+    .popup-box p {
+      font-size: 14px;
+      color: var(--gray-500);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
 
     /* ===== HERO ===== */
     .hero {
       position: relative;
-      background: url('your-logistics-image.jpg') no-repeat center center/cover;
-      background-color: #0e225d;
-      color: #ffffff;
-      padding: 30px 0;
+      background-color: var(--navy-light);
+      color: #fff;
+      overflow: hidden;
+      min-height: 560px;
+      display: flex;
+      align-items: flex-end;
     }
 
+    /* Gradient overlay so text always readable over images */
     .hero::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(14,34,93,0.80);
+      background: linear-gradient(to top,
+          rgba(7, 25, 60, 0.88) 0%,
+          rgba(7, 25, 60, 0.55) 45%,
+          rgba(7, 25, 60, 0.18) 100%);
       z-index: 1;
     }
 
-    .hero .container { position: relative; z-index: 2; }
+    /* Slideshow */
+    .hero-slideshow {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .hero-slide {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      will-change: opacity;
+    }
+
+    .hero-slide.active {
+      opacity: 1;
+    }
+
+    .hero-dots {
+      position: absolute;
+      bottom: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+      z-index: 3;
+    }
+
+    .hero-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.35);
+      border: 1.5px solid rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .hero-dot.active {
+      background: var(--amber);
+      border-color: var(--amber);
+      transform: scale(1.25);
+      box-shadow: 0 0 8px rgba(245, 166, 35, 0.5);
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 2;
+      max-width: 1400px;
+      width: 100%;
+    }
 
     .hero-inner {
       display: grid;
-      grid-template-columns: 1.2fr 1fr;
+      grid-template-columns: 1.4fr 1fr;
       gap: 40px;
-      align-items: center;
+      align-items: end;
+      padding: 48px 0 56px;
     }
 
     .hero-label {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(255,255,255,0.12);
-      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
       color: #f8f9ff;
       padding: 8px 16px;
       border-radius: 999px;
@@ -404,15 +539,17 @@
     }
 
     .hero h1 {
-      font-size: clamp(26px, 4vw, 52px);
+      font-size: clamp(24px, 3.5vw, 50px);
       font-weight: 800;
-      line-height: 1.1;
+      line-height: 1.12;
       margin-bottom: 24px;
       letter-spacing: -0.5px;
-      color: #ffffff;
+      color: #fff;
     }
 
-    .hero h1 span { color: var(--amber); }
+    .hero h1 span {
+      color: var(--amber);
+    }
 
     .hero-features {
       display: grid;
@@ -421,13 +558,15 @@
     }
 
     .hero-feat {
-      background: rgba(230,238,249,0.15);
-      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
       color: #fff;
       font-weight: 600;
       font-size: 14px;
-      border-radius: 6px;
-      padding: 8px 12px;
+      border-radius: 8px;
+      padding: 9px 12px;
       display: flex;
       align-items: center;
       gap: 7px;
@@ -437,53 +576,60 @@
     .hero-card {
       background: var(--white);
       border-radius: var(--radius-lg);
-      padding: clamp(22px, 4vw, 32px);
-      box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+      padding: clamp(16px, 4vw, 22px);
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28);
     }
 
     .hero-card h3 {
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 800;
       color: var(--navy);
       margin-bottom: 4px;
     }
 
-    .hero-card > p {
+    .hero-card>p {
       font-size: 13px;
       color: var(--red);
       font-weight: 700;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
-    .form-group { margin-bottom: 14px; }
+    .form-group {
+      margin-bottom: 12px;
+    }
+
     .form-group label {
       display: block;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       color: var(--gray-700);
-      margin-bottom: 5px;
+      margin-bottom: 4px;
     }
+
     .form-group input,
     .form-group select,
     .form-group textarea {
       width: 100%;
-      padding: 10px 13px;
+      padding: 9px 12px;
       border: 1.5px solid var(--gray-100);
       border-radius: var(--radius-sm);
-      font-size: 14px;
+      font-size: 13px;
       font-family: var(--font);
       color: var(--gray-900);
       background: var(--white);
       transition: border-color 0.2s;
       outline: none;
     }
+
     .form-group input:focus,
-    .form-group select:focus { border-color: var(--navy); }
+    .form-group select:focus {
+      border-color: var(--navy);
+    }
 
     .form-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 12px;
+      gap: 10px;
     }
 
     .submit-btn {
@@ -501,7 +647,10 @@
       width: 100%;
       margin-top: 4px;
     }
-    .submit-btn:hover { background: var(--navy-dark); }
+
+    .submit-btn:hover {
+      background: var(--navy-dark);
+    }
 
     .success-msg {
       display: none;
@@ -530,17 +679,21 @@
       gap: 20px 16px;
     }
 
-    .stat-item { text-align: center; }
+    .stat-item {
+      text-align: center;
+    }
+
     .stat-num {
       font-size: clamp(28px, 4vw, 36px);
       font-weight: 900;
       color: var(--amber);
       line-height: 1;
     }
+
     .stat-label {
       font-size: 12px;
       font-weight: 600;
-      color: rgba(255,255,255,0.75);
+      color: rgba(255, 255, 255, 0.75);
       margin-top: 4px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
@@ -561,6 +714,7 @@
       transition: var(--transition);
       background: var(--white);
     }
+
     .trusted-card:hover {
       border-color: var(--navy);
       box-shadow: var(--shadow);
@@ -578,8 +732,18 @@
       font-size: 26px;
     }
 
-    .trusted-card h4 { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
-    .trusted-card p { font-size: 13px; color: var(--gray-500); line-height: 1.5; }
+    .trusted-card h4 {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+
+    .trusted-card p {
+      font-size: 13px;
+      color: var(--gray-500);
+      line-height: 1.5;
+    }
 
     /* ===== WHY CHOOSE ===== */
     .why-grid {
@@ -597,17 +761,28 @@
       position: relative;
       overflow: hidden;
     }
+
     .why-card::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 3px;
       background: var(--navy);
       transform: scaleX(0);
       transition: var(--transition);
     }
-    .why-card:hover::before { transform: scaleX(1); }
-    .why-card:hover { border-color: transparent; box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+
+    .why-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .why-card:hover {
+      border-color: transparent;
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-4px);
+    }
 
     .why-icon {
       width: 50px;
@@ -620,8 +795,19 @@
       font-size: 22px;
       margin-bottom: 14px;
     }
-    .why-card h4 { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 7px; }
-    .why-card p { font-size: 13px; color: var(--gray-500); line-height: 1.6; }
+
+    .why-card h4 {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 7px;
+    }
+
+    .why-card p {
+      font-size: 13px;
+      color: var(--gray-500);
+      line-height: 1.6;
+    }
 
     /* ===== SERVICES ===== */
     .services-grid {
@@ -639,15 +825,31 @@
       transition: var(--transition);
       cursor: pointer;
     }
+
     .service-card:hover {
       border-color: var(--red);
-      box-shadow: 0 8px 32px rgba(211,47,47,0.12);
+      box-shadow: 0 8px 32px rgba(211, 47, 47, 0.12);
       transform: translateY(-4px);
     }
 
-    .service-emoji { font-size: 34px; margin-bottom: 12px; display: block; }
-    .service-card h4 { font-size: 14px; font-weight: 800; color: var(--navy); margin-bottom: 7px; }
-    .service-card p { font-size: 12px; color: var(--gray-500); line-height: 1.5; }
+    .service-emoji {
+      font-size: 34px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .service-card h4 {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 7px;
+    }
+
+    .service-card p {
+      font-size: 12px;
+      color: var(--gray-500);
+      line-height: 1.5;
+    }
 
     /* ===== DESTINATIONS ===== */
     .dest-grid {
@@ -666,12 +868,36 @@
       align-items: flex-start;
       gap: 12px;
     }
-    .dest-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
 
-    .dest-flag { font-size: 28px; line-height: 1; flex-shrink: 0; }
-    .dest-flag img { width: 36px; border-radius: 3px; }
-    .dest-info h4 { font-size: 14px; font-weight: 800; color: var(--white); margin-bottom: 3px; }
-    .dest-info p { font-size: 11px; color: rgba(255,255,255,0.6); margin-bottom: 7px; }
+    .dest-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .dest-flag {
+      font-size: 28px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .dest-flag img {
+      width: 36px;
+      border-radius: 3px;
+    }
+
+    .dest-info h4 {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 3px;
+    }
+
+    .dest-info p {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 7px;
+    }
+
     .dest-link {
       font-size: 12px;
       font-weight: 700;
@@ -687,16 +913,6 @@
       align-items: flex-start;
       gap: 0;
       position: relative;
-    }
-    .steps-wrap::before {
-      content: '';
-      position: absolute;
-      top: 36px;
-      left: 10%;
-      right: 10%;
-      height: 2px;
-      background: var(--gray-100);
-      z-index: 0;
     }
 
     .step {
@@ -722,10 +938,19 @@
       border: 4px solid var(--white);
       box-shadow: 0 0 0 2px var(--navy-light);
     }
-    .step:nth-child(3) .step-num { background: var(--navy-light); box-shadow: 0 0 0 2px var(--navy-light); }
 
-    .step h4 { font-size: 14px; font-weight: 800; color: var(--navy-light); margin-bottom: 7px; }
-    .step p { font-size: 13px; color: var(--gray-500); line-height: 1.5; }
+    .step h4 {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--navy-light);
+      margin-bottom: 7px;
+    }
+
+    .step p {
+      font-size: 13px;
+      color: var(--gray-500);
+      line-height: 1.5;
+    }
 
     /* ===== REVIEWS ===== */
     .reviews-grid {
@@ -741,12 +966,33 @@
       padding: 26px;
       transition: var(--transition);
     }
-    .review-card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
 
-    .stars { color: #F5A623; font-size: 15px; margin-bottom: 12px; letter-spacing: 2px; }
-    .review-text { font-size: 13px; color: var(--gray-700); line-height: 1.7; margin-bottom: 18px; font-style: italic; }
+    .review-card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-3px);
+    }
 
-    .reviewer { display: flex; align-items: center; gap: 10px; }
+    .stars {
+      color: #F5A623;
+      font-size: 15px;
+      margin-bottom: 12px;
+      letter-spacing: 2px;
+    }
+
+    .review-text {
+      font-size: 13px;
+      color: var(--gray-700);
+      line-height: 1.7;
+      margin-bottom: 18px;
+      font-style: italic;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
     .reviewer-avatar {
       width: 40px;
       height: 40px;
@@ -760,13 +1006,27 @@
       font-weight: 800;
       flex-shrink: 0;
     }
-    .reviewer-name { font-size: 13px; font-weight: 800; color: var(--navy); }
-    .reviewer-meta { font-size: 11px; color: var(--gray-500); }
+
+    .reviewer-name {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .reviewer-meta {
+      font-size: 11px;
+      color: var(--gray-500);
+    }
 
     /* ===== FAQ ===== */
-    .faq-list { max-width: 700px; margin: 0 auto; }
+    .faq-list {
+      max-width: 700px;
+      margin: 0 auto;
+    }
 
-    .faq-item { border-bottom: 1.5px solid var(--gray-100); }
+    .faq-item {
+      border-bottom: 1.5px solid var(--gray-100);
+    }
 
     .faq-q {
       width: 100%;
@@ -814,7 +1074,10 @@
       color: var(--gray-500);
       line-height: 1.7;
     }
-    .faq-item.open .faq-a { display: block; }
+
+    .faq-item.open .faq-a {
+      display: block;
+    }
 
     /* ===== CONTACT ===== */
     .contact-grid {
@@ -824,8 +1087,18 @@
       align-items: start;
     }
 
-    .contact-info h3 { font-size: 26px; font-weight: 900; color: var(--navy); margin-bottom: 10px; }
-    .contact-info > p { font-size: 15px; color: var(--gray-500); margin-bottom: 28px; }
+    .contact-info h3 {
+      font-size: 26px;
+      font-weight: 900;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    .contact-info>p {
+      font-size: 15px;
+      color: var(--gray-500);
+      margin-bottom: 28px;
+    }
 
     .contact-item {
       display: flex;
@@ -838,7 +1111,11 @@
       text-decoration: none;
       transition: var(--transition);
     }
-    .contact-item:hover { background: #E6EEF9; transform: translateX(4px); }
+
+    .contact-item:hover {
+      background: #E6EEF9;
+      transform: translateX(4px);
+    }
 
     .contact-icon {
       width: 46px;
@@ -860,7 +1137,12 @@
       letter-spacing: 0.08em;
       margin-bottom: 2px;
     }
-    .contact-item-text span { font-size: 15px; font-weight: 700; color: var(--navy-light); }
+
+    .contact-item-text span {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy-light);
+    }
 
     .map-frame {
       width: 100%;
@@ -876,14 +1158,18 @@
       font-weight: 600;
       border: 1.5px solid var(--gray-100);
       text-align: center;
-      padding: 0px;
+      padding: 0;
     }
-    .map-frame span { font-size: 36px; }
+
+    .map-frame img {
+      border-radius: 10px 10px 0 0;
+      width: 100%;
+    }
 
     /* ===== FOOTER ===== */
     .footer {
       background: var(--gray-900);
-      color: rgba(255,255,255,0.75);
+      color: rgba(255, 255, 255, 0.75);
       padding: 60px 0 0;
     }
 
@@ -892,32 +1178,44 @@
       grid-template-columns: 2fr 1fr 1fr 1fr;
       gap: 40px;
       padding-bottom: 48px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .footer-about p {
       font-size: 14px;
       line-height: 1.7;
       margin: 14px 0 20px;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
     }
 
-    .footer-social { display: flex; gap: 8px; flex-wrap: wrap; }
+    .footer-social {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
 
     .social-btn {
       width: 34px;
       height: 34px;
       border-radius: 8px;
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 14px;
       transition: var(--transition);
-      color: rgba(255,255,255,0.7);
+      color: rgba(255, 255, 255, 0.7);
     }
-    .social-btn svg { width: 16px; height: 16px; }
-    .social-btn:hover { background: var(--navy); color: var(--white); }
+
+    .social-btn svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .social-btn:hover {
+      background: var(--navy);
+      color: var(--white);
+    }
 
     .footer-col h5 {
       font-size: 13px;
@@ -927,20 +1225,23 @@
       text-transform: uppercase;
       margin-bottom: 16px;
     }
-    .footer-col ul { list-style: none; }
-    .footer-col ul li { margin-bottom: 9px; }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 9px;
+    }
+
     .footer-col ul a {
       font-size: 13px;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
       transition: var(--transition);
     }
-    .footer-col ul a:hover { color: var(--amber); }
 
-    .footer-logo-text-main {
-      font-size: 18px;
-      font-weight: 900;
-      letter-spacing: -0.5px;
-      line-height: 1;
+    .footer-col ul a:hover {
+      color: var(--amber);
     }
 
     .footer-bottom {
@@ -951,10 +1252,17 @@
       flex-wrap: wrap;
       gap: 10px;
       font-size: 12px;
-      color: rgba(255,255,255,0.4);
+      color: rgba(255, 255, 255, 0.4);
     }
-    .footer-bottom a { color: rgba(255,255,255,0.4); margin-left: 14px; }
-    .footer-bottom a:hover { color: rgba(255,255,255,0.7); }
+
+    .footer-bottom a {
+      color: rgba(255, 255, 255, 0.4);
+      margin-left: 14px;
+    }
+
+    .footer-bottom a:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
 
     /* ===== LOCAL TABS ===== */
     .local-tabs {
@@ -964,6 +1272,7 @@
       justify-content: center;
       margin-bottom: 36px;
     }
+
     .local-tab {
       padding: 8px 16px;
       border-radius: 100px;
@@ -975,134 +1284,369 @@
       transition: var(--transition);
       background: var(--white);
     }
-    .local-tab:hover, .local-tab.active { background: var(--navy); color: var(--white); border-color: var(--navy); }
 
-    /* ===== RESPONSIVE ===== */
+    .local-tab:hover,
+    .local-tab.active {
+      background: var(--navy);
+      color: var(--white);
+      border-color: var(--navy);
+    }
 
-    /* Large tablets / small desktops: 1024px */
+    /* ===================================================================
+       RESPONSIVE
+    =================================================================== */
+
+    /* Large tablets: 1024px */
     @media (max-width: 1024px) {
-      .hero-inner { grid-template-columns: 1fr 1fr; gap: 28px; }
-      .trusted-grid { grid-template-columns: repeat(2, 1fr); }
-      .services-grid { grid-template-columns: repeat(3, 1fr); }
-      .dest-grid { grid-template-columns: repeat(2, 1fr); }
-      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-      .nav a { padding: 7px 9px; font-size: 13px; }
+      .hero-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+      }
+
+      .trusted-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .dest-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+
+      .nav a {
+        padding: 7px 9px;
+        font-size: 13px;
+      }
     }
 
     /* Tablets: 768px */
     @media (max-width: 768px) {
-      .section { padding: 48px 0; }
+      .section {
+        padding: 48px 0;
+      }
 
-      /* Nav */
-      .nav { display: none; }
-      .hamburger { display: flex; }
+      /* Hide desktop nav, show hamburger */
+      .nav {
+        display: none;
+      }
 
-      /* Hero */
-      .hero { padding: 48px 0 56px; }
+      .hamburger {
+        display: flex;
+      }
+
+      /* Hero: hide slideshow, solid navy-light background */
+      .hero {
+        min-height: unset;
+        align-items: stretch;
+        background-color: var(--navy-light);
+      }
+
+      .hero-slideshow {
+        display: none;
+      }
+
+      .hero::before {
+        display: none;
+      }
+
       .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 36px 0 48px;
+      }
+
+      .hero h1 {
+        font-size: clamp(22px, 5.5vw, 34px);
+        margin-bottom: 18px;
+      }
+
+      .hero-features {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-dots {
+        display: none;
+      }
+
+      /* Grids */
+      .why-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .dest-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .reviews-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      /* Contact */
+      .contact-grid {
         grid-template-columns: 1fr;
         gap: 32px;
       }
-      .hero-label { font-size: 12px; }
-      .hero h1 { font-size: clamp(24px, 5vw, 38px); }
-      .hero-features { grid-template-columns: 1fr 1fr; }
-      .hero-card { order: 1; }
-
-      /* Grids */
-      .why-grid { grid-template-columns: 1fr 1fr; }
-      .services-grid { grid-template-columns: repeat(2, 1fr); }
-      .dest-grid { grid-template-columns: repeat(2, 1fr); }
-      .reviews-grid { grid-template-columns: 1fr 1fr; }
-
-      /* Contact */
-      .contact-grid { grid-template-columns: 1fr; gap: 32px; }
 
       /* How it works */
-      .steps-wrap { flex-direction: column; gap: 28px; align-items: stretch; }
-      .steps-wrap::before { display: none; }
-      .step { display: flex; align-items: flex-start; text-align: left; gap: 16px; padding: 0; }
-      .step-num { margin: 0; flex-shrink: 0; width: 52px; height: 52px; font-size: 18px; }
+      .steps-wrap {
+        flex-direction: column;
+        gap: 28px;
+        align-items: stretch;
+      }
+
+      .steps-wrap::before {
+        display: none;
+      }
+
+      .step {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        gap: 16px;
+        padding: 0;
+      }
+
+      .step-num {
+        margin: 0;
+        flex-shrink: 0;
+        width: 52px;
+        height: 52px;
+        font-size: 18px;
+      }
 
       /* Footer */
-      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
     /* Mobile: 600px */
     @media (max-width: 600px) {
-      .container { padding: 0 16px; }
-      .section { padding: 40px 0; }
+      .container {
+        padding: 0 16px;
+      }
 
-      .hero { padding: 40px 0 48px; }
-      .hero-inner { gap: 28px; }
-      .hero h1 { font-size: clamp(22px, 6vw, 32px); }
-      .hero-features { grid-template-columns: 1fr; }
-      .form-row { grid-template-columns: 1fr; }
+      .section {
+        padding: 36px 0;
+      }
+
+      /* Hero */
+      .hero {
+        background-color: var(--navy-light);
+      }
+
+      .hero-inner {
+        gap: 20px;
+        padding: 28px 0 40px;
+      }
+
+      .hero h1 {
+        font-size: clamp(20px, 6vw, 28px);
+      }
+
+      .hero-features {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .hero-feat {
+        font-size: 12px;
+        padding: 8px 10px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
 
       /* Stats */
-      .stats-grid { justify-content: center; column-gap: 32px; }
-      .stat-item { min-width: 100px; }
+      .stats-grid {
+        justify-content: center;
+        column-gap: 32px;
+      }
+
+      .stat-item {
+        min-width: 100px;
+      }
 
       /* Trusted */
-      .trusted-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+      .trusted-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
 
       /* Why */
-      .why-grid { grid-template-columns: 1fr; }
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
 
       /* Services */
-      .services-grid { grid-template-columns: 1fr 1fr; }
+      .services-grid {
+        grid-template-columns: 1fr 1fr;
+      }
 
       /* Destinations */
-      .dest-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .dest-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .dest-card {
+        padding: 14px 12px;
+        gap: 8px;
+      }
+
+      .dest-info h4 {
+        font-size: 12px;
+      }
+
+      .dest-flag img {
+        width: 28px;
+      }
 
       /* Reviews */
-      .reviews-grid { grid-template-columns: 1fr; }
+      .reviews-grid {
+        grid-template-columns: 1fr;
+      }
 
       /* Contact */
-      .contact-item { flex-direction: row; flex-wrap: wrap; }
-      .contact-item-text span { font-size: 14px; word-break: break-word; }
+      .contact-item {
+        flex-wrap: wrap;
+      }
+
+      .contact-item-text span {
+        font-size: 14px;
+        word-break: break-word;
+      }
 
       /* Footer */
-      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
-      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
 
       /* FAQ */
-      .faq-q { font-size: 14px; }
+      .faq-q {
+        font-size: 14px;
+      }
 
       /* Section header */
-      .section-header { margin-bottom: 32px; }
+      .section-header {
+        margin-bottom: 28px;
+      }
 
       /* Popup */
-      .popup-box { padding: 24px 18px; }
-      .popup-box h2 { font-size: 17px; }
-      .popup-box h3 { font-size: 15px; }
+      .popup-box {
+        padding: 24px 18px;
+      }
+
+      .popup-box h2 {
+        font-size: 17px;
+      }
+
+      .popup-box h3 {
+        font-size: 15px;
+      }
 
       /* Local tabs */
-      .local-tabs { justify-content: flex-start; }
-      .local-tab { font-size: 12px; padding: 7px 13px; }
+      .local-tabs {
+        justify-content: flex-start;
+      }
+
+      .local-tab {
+        font-size: 12px;
+        padding: 7px 13px;
+      }
     }
 
     /* Small mobile: 420px */
     @media (max-width: 420px) {
-      .header-inner { padding: 10px 14px; }
-      .logo-text-main { font-size: 15px; }
-      .logo-text-sub { font-size: 9px; }
-      .logo-icon { width: 34px; height: 34px; }
+      .header-inner {
+        padding: 10px 14px;
+      }
 
-      .hero h1 { font-size: 1.5rem; }
-      .hero-feat { font-size: 13px; }
-      .hero-card { padding: 18px 16px; }
-      .hero-card h3 { font-size: 16px; }
+      .logo-text-main {
+        font-size: 15px;
+      }
 
-      .trusted-grid { grid-template-columns: 1fr; }
-      .services-grid { grid-template-columns: 1fr; }
-      .dest-grid { grid-template-columns: 1fr; }
+      .logo-text-sub {
+        font-size: 9px;
+      }
 
-      .contact-item { flex-direction: column; align-items: flex-start; }
+      .hero-inner {
+        padding: 24px 0 36px;
+      }
 
-      .float-btn { width: 46px; height: 46px; font-size: 20px; }
-      .float-cta { bottom: 18px; right: 14px; }
+      .hero h1 {
+        font-size: 1.35rem;
+      }
 
-      .btn { font-size: 14px; padding: 10px 18px; }
+      .hero-features {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-feat {
+        font-size: 11px;
+        padding: 7px 8px;
+        gap: 5px;
+      }
+
+      .hero-card {
+        padding: 16px 14px;
+      }
+
+      .hero-card h3 {
+        font-size: 15px;
+      }
+
+      .trusted-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .dest-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .float-btn {
+        width: 46px;
+        height: 46px;
+        font-size: 20px;
+      }
+
+      .float-cta {
+        bottom: 18px;
+        right: 14px;
+      }
+
+      .btn {
+        font-size: 14px;
+        padding: 10px 18px;
+      }
     }
   </style>
 </head>
@@ -1111,9 +1655,11 @@
 
   <!-- Float Buttons -->
   <div class="float-cta">
-    <a href="https://wa.me/919885593668?text=Hi%2C%20I%20want%20a%20quote%20for%20international%20courier%20from%20Hyderabad" class="float-btn float-wa" title="WhatsApp Us">
+    <a href="https://wa.me/919885593668?text=Hi%2C%20I%20want%20a%20quote%20for%20international%20courier%20from%20Hyderabad"
+      class="float-btn float-wa" title="WhatsApp Us">
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#25D366">
-        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+        <path
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
       </svg>
     </a>
     <a href="tel:+919885593668" class="float-btn float-call" title="Call Us">📞</a>
@@ -1125,14 +1671,18 @@
       <button class="popup-close" onclick="closePopup()">✕</button>
       <div class="popup-emoji">🌍</div>
       <h2>Free Home Pickup</h2>
-      <h2>Free Packing</h2>
+      <h2>Free NRI Packing</h2>
       <h3>Wait! Get a FREE Shipping Quote</h3>
-      <p>Before you go, let us offer you the best rates for your international courier from Hyderabad. No commitment needed.</p>
-      <a href="https://wa.me/919885593668?text=Hi%2C%20I%20want%20a%20FREE%20shipping%20quote" class="btn btn-whatsapp" style="width:100%;margin-bottom:10px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#25D366">
-        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
-      </svg>
-         Get Free Quote on WhatsApp</a>
+      <p>Before you go, let us offer you the best rates for your international courier from Hyderabad. No commitment
+        needed.</p>
+      <a href="https://wa.me/919885593668?text=Hi%2C%20I%20want%20a%20FREE%20shipping%20quote" class="btn btn-whatsapp"
+        style="width:100%;margin-bottom:10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#fff">
+          <path
+            d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
+        </svg>
+        Get Free Quote on WhatsApp
+      </a>
       <a href="tel:+919885593668" class="btn btn-outline" style="width:100%;">📞 Call Now: +91 9885593668</a>
     </div>
   </div>
@@ -1140,7 +1690,6 @@
   <!-- Mobile Nav -->
   <div class="nav-mobile" id="mobileNav">
     <button class="nav-mobile-close" onclick="closeMobileNav()">✕</button>
-    <!-- <a href="track.html" onclick="closeMobileNav()">🔍 Tracking</a> -->
     <a href="#services" onclick="closeMobileNav()">📦 Services</a>
     <a href="#destinations" onclick="closeMobileNav()">🌍 Destinations</a>
     <a href="#how-it-works" onclick="closeMobileNav()">⚙️ How It Works</a>
@@ -1149,17 +1698,20 @@
     <a href="#contact" onclick="closeMobileNav()">📞 Contact</a>
     <div style="display:flex;flex-direction:column;gap:10px;margin-top:16px;">
       <a href="https://wa.me/919885593668" class="btn btn-whatsapp">
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#25D366">
-        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
-      </svg>
-        WhatsApp Now</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#fff">
+          <path
+            d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
+        </svg>
+        WhatsApp Now
+      </a>
       <a href="tel:+919885593668" class="btn btn-primary">📞 Call Now</a>
     </div>
   </div>
 
   <!-- Announcement Bar -->
   <div class="announce-bar">
-    <marquee direction="right" scrollamount="8">🎉 Free Home Pickup Available Across Hyderabad &nbsp;|&nbsp; Free Packing Service &nbsp;|&nbsp; 📞 Call Now: +91 9885593668</marquee>
+    <marquee direction="right" scrollamount="8">🎉 Free Home Pickup Available Across Hyderabad &nbsp;|&nbsp; Free NRI
+      Packing Service &nbsp;|&nbsp; 📞 Call Now: +91 9885593668</marquee>
   </div>
 
   <!-- Header -->
@@ -1167,24 +1719,17 @@
     <div class="container">
       <div class="header-inner">
         <a href="#" class="logo">
-          <div class="logo-icon">
-            <img src="/logo.jpeg" alt="Jayatsena Express logo" />
-          </div>
           <div>
-            <div class="logo-text-main"><span style="color:var(--red);">JAYATSENA</span> <span style="color:var(--navy-light);">EXPRESS</span></div>
-            <div class="logo-text-sub">Delivering Trust Across Borders</div>
+            <img src="/updated2_logo.png" alt="Jayatsena Express logo" width="200" />
           </div>
         </a>
-
         <nav class="nav">
-          <!-- <a href="track.html">Tracking</a> -->
           <a href="#services">Services</a>
           <a href="#destinations">Destinations</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#reviews">Reviews</a>
           <a href="#contact">Contact</a>
         </nav>
-
         <button class="hamburger" onclick="openMobileNav()" aria-label="Open menu">
           <span></span><span></span><span></span>
         </button>
@@ -1194,27 +1739,39 @@
 
   <!-- HERO -->
   <section class="hero">
+    <!-- Background Slideshow (desktop only – hidden on mobile via CSS) -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image:url('./hero_image_1.png');background-position:top;"></div>
+      <div class="hero-slide" style="background-image:url('./hero_image_2.jpeg');background-position:top;"></div>
+      <div class="hero-slide" style="background-image:url('./hero_image_3.png');background-position:center;"></div>
+      <div class="hero-slide" style="background-image:url('./hero_image_4.jpeg');background-position:top;"></div>
+    </div>
+
+    <!-- Slide Dots (desktop only) -->
+    <div class="hero-dots">
+      <span class="hero-dot active" onclick="goToSlide(0)"></span>
+      <span class="hero-dot" onclick="goToSlide(1)"></span>
+      <span class="hero-dot" onclick="goToSlide(2)"></span>
+      <span class="hero-dot" onclick="goToSlide(3)"></span>
+    </div>
+
     <div class="container">
       <div class="hero-inner">
+        <!-- Left: headline + feature badges -->
         <div class="hero-content">
-          <div class="hero-label">
-            🌟 <span style="color:var(--amber)">Hyderabad's Most Trusted Courier Partner</span>
-          </div>
           <h1>International Courier Services From Hyderabad To <span>Abroad Countries</span></h1>
-
-          <div class="hero-features" style="margin-top: 4px;">
+          <div class="hero-features">
             <div class="hero-feat">🚚 Free Home Pickup</div>
             <div class="hero-feat">📍 Live Tracking</div>
-            <div class="hero-feat">📦 Free Packing Support</div>
+            <div class="hero-feat">📦 Free NRI Packing</div>
             <div class="hero-feat">🌎 Worldwide Delivery</div>
           </div>
         </div>
 
-        <!-- Quote Form Card -->
+        <!-- Right: Quote Form Card -->
         <div class="hero-card">
           <h3>Get Your Free Shipping Quote</h3>
-          <p>Fill in the details - we'll get back to you <strong style="color:#000;">IMMEDIATELY!</strong></p>
-
+          <p>Fill in the details – we'll reply <strong style="color:#000;">IMMEDIATELY!</strong></p>
           <div class="form-row">
             <div class="form-group">
               <label>Your Name</label>
@@ -1232,7 +1789,11 @@
                 <option>Germany</option>
                 <option>Singapore</option>
                 <option>New Zealand</option>
-                <option>Other</option>
+                <option>Sri Lanka</option>
+                <option>Nepal</option>
+                <option>Scotland</option>
+                <option>Switzerland</option>
+                <option>France</option>
               </select>
             </div>
           </div>
@@ -1249,12 +1810,12 @@
               </select>
             </div>
             <div class="form-group">
-              <label>Approx. Weight</label>
-              <input type="text" placeholder="e.g. 2 kg" id="heroWeight">
+              <label>Approx. Weight (kg)</label>
+              <input type="text" placeholder="e.g. 2kg" id="heroweight">
             </div>
           </div>
           <button class="submit-btn" onclick="submitHeroForm()">Enquiry Now →</button>
-          <div class="success-msg" id="heroSuccess">✅ Thanks! Our Team will contact you Immediately.</div>
+          <div class="success-msg" id="heroSuccess">✅ Thanks! Our team will contact you immediately.</div>
         </div>
       </div>
     </div>
@@ -1264,11 +1825,22 @@
   <div class="stats-strip">
     <div class="container">
       <div class="stats-grid">
-        <div class="stat-item"><div class="stat-num">22+</div><div class="stat-label">Countries Served</div></div>
-        <div class="stat-item"><div class="stat-num">100+</div><div class="stat-label">Happy Customers</div></div>
-        <div class="stat-item"><div class="stat-num">100+</div><div class="stat-label">Parcels Delivered</div></div>
-        <div class="stat-item"><div class="stat-num">2+</div><div class="stat-label">Years Experience</div></div>
-        <div class="stat-item"><div class="stat-num">4.9★</div><div class="stat-label">Google Rating</div></div>
+        <div class="stat-item">
+          <div class="stat-num">180+</div>
+          <div class="stat-label">Countries Served</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">1000+</div>
+          <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">4.9★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
       </div>
     </div>
   </div>
@@ -1278,18 +1850,20 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Trusted By Thousands Across Hyderabad</h2>
-        <p class="section-sub">From students heading abroad to corporates managing global logistics - <strong>Jayatsena Express</strong> is Hyderabad's preferred shipping partner.</p>
+        <p class="section-sub">From students heading abroad to corporates managing global logistics – <strong>Jayatsena
+            Express</strong> is Hyderabad's preferred shipping partner.</p>
       </div>
       <div class="trusted-grid">
         <div class="trusted-card">
           <div class="trusted-icon" style="background:#E6EEF9;">🎓</div>
           <h4>Students</h4>
-          <p>Affordable student parcel service to USA, UK, Canada & Australia. Send books, clothes, electronics safely.</p>
+          <p>Affordable student parcel service to USA, UK, Canada & Australia. Send books, clothes, electronics safely.
+          </p>
         </div>
         <div class="trusted-card">
           <div class="trusted-icon" style="background:#FEF3DC;">👨‍👩‍👧</div>
           <h4>NRI Families</h4>
-          <p>Send homemade food, pickles, sarees, sweets and gifts to your loved ones abroad - handled with care.</p>
+          <p>Send homemade food, pickles, sarees, sweets and gifts to your loved ones abroad – handled with care.</p>
         </div>
         <div class="trusted-card">
           <div class="trusted-icon" style="background:#FCE4EC;">🏭</div>
@@ -1309,16 +1883,41 @@
   <section class="section" id="why">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">Why Choose <span style="color:var(--red-dark)">JAYATSENA</span> <span style="color:var(--navy-light)">EXPRESS</span></h2>
+        <h2 class="section-title">Why Choose <span style="color:var(--red-dark)">JAYATSENA</span> <span
+            style="color:var(--navy-light)">EXPRESS</span></h2>
         <p class="section-sub">We combine the speed of global networks with local expertise and personal service.</p>
       </div>
       <div class="why-grid">
-        <div class="why-card"><div class="why-icon">🚚</div><h4>Free Doorstep Pickup</h4><p>We collect your shipment from your home or office across all major areas of Hyderabad.</p></div>
-        <div class="why-card"><div class="why-icon">🌍</div><h4>Worldwide Delivery</h4><p>We deliver to 22+ countries through our trusted airline and courier partner network.</p></div>
-        <div class="why-card"><div class="why-icon">💰</div><h4>Affordable Pricing</h4><p>Competitive rates that beat DHL, FedEx and UPS. No hidden charges. What we quote is what you pay.</p></div>
-        <div class="why-card"><div class="why-icon">⚡</div><h4>Fast Transit Times</h4><p>Express delivery in 3-7 business days to the US, UK and UAE. Standard options for budget shipping.</p></div>
-        <div class="why-card"><div class="why-icon">📞</div><h4>Dedicated Support</h4><p>A real human answers your WhatsApp or phone - not a bot. Available 7 days a week.</p></div>
-        <div class="why-card"><div class="why-icon">📦</div><h4>Safe Packaging</h4><p>Professional packing materials and guidance. Fragile items bubble-wrapped. Your goods arrive safe.</p></div>
+        <div class="why-card">
+          <div class="why-icon">🚚</div>
+          <h4>Free Doorstep Pickup</h4>
+          <p>We collect your shipment from your home or office across all major areas of Hyderabad.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌍</div>
+          <h4>Worldwide Delivery</h4>
+          <p>We deliver to 180+ countries through our trusted airline and courier partner network.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💰</div>
+          <h4>Affordable Pricing</h4>
+          <p>Competitive rates that beat DHL, FedEx and UPS. No hidden charges. What we quote is what you pay.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h4>Fast Transit Times</h4>
+          <p>Express delivery in 3-7 business days to the US, UK and UAE. Standard options for budget shipping.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📞</div>
+          <h4>Dedicated Support</h4>
+          <p>A real human answers your WhatsApp or phone – not a bot. Available 7 days a week.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📦</div>
+          <h4>Safe Packaging</h4>
+          <p>Professional packing materials and guidance. Fragile items bubble-wrapped. Your goods arrive safe.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -1328,20 +1927,45 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Our Courier & Cargo Services</h2>
-        <p class="section-sub">From a single document to full cargo shipments - we handle everything with the same care and reliability.</p>
+        <p class="section-sub">From a single document to full cargo shipments – we handle everything with the same care
+          and reliability.</p>
       </div>
       <div class="services-grid">
-        <div class="service-card"><span class="service-emoji">✈️</span><h4>International Courier</h4><p>Fast and reliable parcel delivery to 22+ countries via express air freight.</p></div>
-        <div class="service-card"><span class="service-emoji">🇮🇳</span><h4>Domestic Courier</h4><p>Same-day and next-day delivery across all major cities in India.</p></div>
-        <div class="service-card"><span class="service-emoji">📄</span><h4>Document Shipping</h4><p>Secure delivery of legal, visa, academic and business documents worldwide.</p></div>
-        <div class="service-card"><span class="service-emoji">🎓</span><h4>Student Parcel Service</h4><p>Affordable rates for students sending books, clothes and essentials abroad.</p></div>
-        <div class="service-card"><span class="service-emoji">🧳</span><h4>Excess Baggage Shipping</h4><p>Ship your extra luggage ahead - saves money vs airline excess baggage fees.</p></div>
-        <div class="service-card"><span class="service-emoji">💊</span><h4>Medicine Courier</h4><p>Safe and compliant shipping of prescribed medicines to NRIs abroad.</p></div>
-        <div class="service-card"><span class="service-emoji">🏢</span><h4>Corporate Logistics</h4><p>End-to-end logistics solutions for businesses with regular shipping needs.</p></div>
-        <div class="service-card"><span class="service-emoji">🚢</span><h4>Cargo Services</h4><p>Air and sea freight for large, heavy or commercial shipments worldwide.</p></div>
+        <div class="service-card"><span class="service-emoji">✈️</span>
+          <h4>International Courier</h4>
+          <p>Fast and reliable parcel delivery to 180+ countries via express air freight.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">🇮🇳</span>
+          <h4>Domestic Courier</h4>
+          <p>Same-day and next-day delivery across all major cities in India.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">📄</span>
+          <h4>Document Shipping</h4>
+          <p>Secure delivery of legal, visa, academic and business documents worldwide.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">🎓</span>
+          <h4>Student Parcel Service</h4>
+          <p>Affordable rates for students sending books, clothes and essentials abroad.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">🧳</span>
+          <h4>Excess Baggage Shipping</h4>
+          <p>Ship your extra luggage ahead – saves money vs airline excess baggage fees.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">💊</span>
+          <h4>Medicine Courier</h4>
+          <p>Safe and compliant shipping of prescribed medicines to NRIs abroad.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">🏢</span>
+          <h4>Corporate Logistics</h4>
+          <p>End-to-end logistics solutions for businesses with regular shipping needs.</p>
+        </div>
+        <div class="service-card"><span class="service-emoji">🚢</span>
+          <h4>Cargo Services</h4>
+          <p>Air and sea freight for large, heavy or commercial shipments worldwide.</p>
+        </div>
       </div>
       <div style="text-align:center;margin-top:36px;">
-        <a href="#" class="btn btn-primary">Get a Service Quote →</a>
+        <a href="#contact" class="btn btn-primary">Get a Service Quote →</a>
       </div>
     </div>
   </section>
@@ -1351,44 +1975,155 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">We Deliver To Every Corner Of The World</h2>
-        <p class="section-sub">Our most popular international courier destinations from Hyderabad - all with competitive pricing and fast transit times.</p>
+        <p class="section-sub">Our most popular international courier destinations from Hyderabad – all with competitive
+          pricing and fast transit times.</p>
       </div>
       <div class="dest-grid">
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/us.png" alt="USA"></div>
-          <div class="dest-info"><h4>Courier To USA</h4><p>4-7 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20USA" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To USA</h4>
+            <p>3-6 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20USA"
+              class="dest-link" target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/ca.png" alt="Canada"></div>
-          <div class="dest-info"><h4>Courier To Canada</h4><p>5-8 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Canada" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To Canada</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Canada" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/gb.png" alt="UK"></div>
-          <div class="dest-info"><h4>Courier To UK</h4><p>4-6 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20UK" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To UK</h4>
+            <p>3-6 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20UK"
+              class="dest-link" target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/au.png" alt="Australia"></div>
-          <div class="dest-info"><h4>Courier To Australia</h4><p>5-9 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Australia" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To Australia</h4>
+            <p>7-10 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Australia" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/ae.png" alt="UAE"></div>
-          <div class="dest-info"><h4>Courier To UAE</h4><p>2-4 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20UAE" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To UAE</h4>
+            <p>2-4 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20UAE"
+              class="dest-link" target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/de.png" alt="Germany"></div>
-          <div class="dest-info"><h4>Courier To Germany</h4><p>12-15 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Germany" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To Germany</h4>
+            <p>8-12 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Germany" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/sg.png" alt="Singapore"></div>
-          <div class="dest-info"><h4>Courier To Singapore</h4><p>3-5 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Singapore" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To Singapore</h4>
+            <p>3-5 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Singapore" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
         </div>
         <div class="dest-card">
           <div class="dest-flag"><img src="https://flagcdn.com/w40/nz.png" alt="New Zealand"></div>
-          <div class="dest-info"><h4>Courier To New Zealand</h4><p>6-10 business days</p><a href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20New%20Zealand" class="dest-link" target="_blank">Get Quote →</a></div>
+          <div class="dest-info">
+            <h4>Courier To New Zealand</h4>
+            <p>8-12 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20New%20Zealand"
+              class="dest-link" target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/gb-sct.png" alt="Scotland"></div>
+          <div class="dest-info">
+            <h4>Courier To Scotland</h4>
+            <p>4-6 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Scotland" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/ch.png" alt="Switzerland"></div>
+          <div class="dest-info">
+            <h4>Courier To Switzerland</h4>
+            <p>5-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Switzerland" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/fr.png" alt="France"></div>
+          <div class="dest-info">
+            <h4>Courier To France</h4>
+            <p>4-8 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20France" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/np.png" alt="Nepal"></div>
+          <div class="dest-info">
+            <h4>Courier To Nepal</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Nepal" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/lk.png" alt="Sri Lanka"></div>
+          <div class="dest-info">
+            <h4>Courier To Sri Lanka</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Sri%20Lanka" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/dk.png" alt="Denmark"></div>
+          <div class="dest-info">
+            <h4>Courier To Denmark</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Denmark" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/ie.png" alt="Ireland"></div>
+          <div class="dest-info">
+            <h4>Courier To Ireland</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Ireland" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-flag"><img src="https://flagcdn.com/w40/jp.png" alt="Japan"></div>
+          <div class="dest-info">
+            <h4>Courier To Japan</h4>
+            <p>4-7 business days</p><a
+              href="https://wa.me/919885593668?text=I%20need%20a%20courier%20quote%20to%20Japan" class="dest-link"
+              target="_blank">Get Quote →</a>
+          </div>
         </div>
       </div>
       <div style="text-align:center;margin-top:32px;">
-        <a href="https://wa.me/919885593668?text=Hi!%20I%20would%20like%20to%20know%20more%20about%20your%20courier%20services." style="color:var(--navy-light);font-weight:700;" target="_blank">Don't see your country? Contact Us →</a>
+        <a href="https://wa.me/919885593668?text=Hi!%20I%20would%20like%20to%20know%20more%20about%20your%20courier%20services."
+          style="color:var(--navy-light);font-weight:700;" target="_blank">Don't see your country? Contact Us →</a>
       </div>
     </div>
   </section>
@@ -1397,33 +2132,18 @@
   <section class="section section-alt" id="how-it-works">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">How It Works - Ship In 5 Easy Steps</h2>
+        <h2 class="section-title">How It Works – Ship In 5 Easy Steps</h2>
         <p class="section-sub">From quote to delivery, we handle everything so you don't have to worry.</p>
       </div>
-      <div class="steps-wrap">
-        <div class="step">
-          <div class="step-num">1</div>
-          <div><h4>Request a Quote</h4><p>WhatsApp or call us with your destination, weight and item type. We'll reply in minutes.</p></div>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <div><h4>Schedule Pickup</h4><p>Confirm your address. Our agent arrives at your door at your preferred time.</p></div>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <div><h4>Secure Packaging</h4><p>We help pack and label your shipment with care. Fragile items handled with extra protection.</p></div>
-        </div>
-        <div class="step">
-          <div class="step-num">4</div>
-          <div><h4>Live Tracking</h4><p>Track your shipment online with a unique tracking number. Get SMS updates at every stage.</p></div>
-        </div>
-        <div class="step">
-          <div class="step-num">5</div>
-          <div><h4>Delivered Successfully</h4><p>Your package is delivered to the recipient's door. We confirm delivery with photo proof.</p></div>
-        </div>
+      <div class="container" style="text-align:center;margin-top:32px;">
+        <img src="./image2.png" alt="How it works" style="max-width:100%;border-radius:12px;" />
       </div>
     </div>
   </section>
+
+  <div class="container" style="text-align:center;padding:32px 20px;">
+    <img src="./itemsimage.png" alt="Jayatsena Express Courier Service" style="width:100%;border-radius:12px;" />
+  </div>
 
   <!-- REVIEWS -->
   <section class="section" id="reviews">
@@ -1435,46 +2155,99 @@
       <div class="reviews-grid">
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"Really happy with the service here. The staff were friendly and guided me well. My parcel was delivered on time without any damage. The whole process was smooth and hassle-free. Definitely a trustworthy courier service."</p>
-          <div class="reviewer"><div class="reviewer-avatar">DM</div><div><div class="reviewer-name">Dinesh Reddy Mereddy</div><div class="reviewer-meta">Hyderabad · Parcel Delivery</div></div></div>
+          <p class="review-text">"Really happy with the service here. The staff were friendly and guided me well. My
+            parcel was delivered on time without any damage. The whole process was smooth and hassle-free. Definitely a
+            trustworthy courier service."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">DM</div>
+            <div>
+              <div class="reviewer-name">Dinesh Reddy Mereddy</div>
+              <div class="reviewer-meta">Hyderabad · Parcel Delivery</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"My parcel from India to the UK arrived safely and much faster than expected. The packing was very secure, and the team kept me updated throughout. Really impressed with their professionalism and great prices - highly recommend!"</p>
-          <div class="reviewer"><div class="reviewer-avatar">VS</div><div><div class="reviewer-name">Vuligonda Shashank</div><div class="reviewer-meta">Hyderabad · Sent to UK</div></div></div>
+          <p class="review-text">"My parcel from India to the UK arrived safely and much faster than expected. The
+            packing was very secure, and the team kept me updated throughout. Really impressed with their
+            professionalism and great prices – highly recommend!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">VS</div>
+            <div>
+              <div class="reviewer-name">Vuligonda Shashank</div>
+              <div class="reviewer-meta">Hyderabad · Sent to UK</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"I recently used this courier service to send a package from India to Switzerland, and I am very satisfied with the experience. Smooth customs clearance, reasonable pricing, and reliable service. Highly recommend!"</p>
-          <div class="reviewer"><div class="reviewer-avatar">VM</div><div><div class="reviewer-name">Vahini Muthoju</div><div class="reviewer-meta">Hyderabad · Sent to Switzerland</div></div></div>
+          <p class="review-text">"I recently used this courier service to send a package from India to Switzerland, and
+            I am very satisfied with the experience. Smooth customs clearance, reasonable pricing, and reliable service.
+            Highly recommend!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">VM</div>
+            <div>
+              <div class="reviewer-name">Vahini Muthoju</div>
+              <div class="reviewer-meta">Hyderabad · Sent to Switzerland</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"Very reliable courier service! My package was delivered on time and in perfect condition. The staff explained the process clearly and gave me a proper tracking ID. Reasonable charges and trustworthy service."</p>
-          <div class="reviewer"><div class="reviewer-avatar">SR</div><div><div class="reviewer-name">G. Sanjith Reddy</div><div class="reviewer-meta">Hyderabad · Local & Outstation</div></div></div>
+          <p class="review-text">"Very reliable courier service! My package was delivered on time and in perfect
+            condition. The staff explained the process clearly and gave me a proper tracking ID. Reasonable charges and
+            trustworthy service."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SR</div>
+            <div>
+              <div class="reviewer-name">G. Sanjith Reddy</div>
+              <div class="reviewer-meta">Hyderabad · Local & Outstation</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"Lokesh truly stands out. He came to our home, packed everything with great professionalism, and clearly explained all the details - transparent pricing, allowed items, delivery timelines. He will be our go-to person for sending packages to the USA!"</p>
-          <div class="reviewer"><div class="reviewer-avatar">SY</div><div><div class="reviewer-name">Swetha Y</div><div class="reviewer-meta">Hyderabad · Sent to USA</div></div></div>
+          <p class="review-text">"Lokesh truly stands out. He came to our home, packed everything with great
+            professionalism, and clearly explained all the details – transparent pricing, allowed items, delivery
+            timelines. He will be our go-to person for sending packages to the USA!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SY</div>
+            <div>
+              <div class="reviewer-name">Swetha Y</div>
+              <div class="reviewer-meta">Hyderabad · Sent to USA</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"The service provided is truly excellent, marked by complete transparency at every step. Their professionalism, punctuality, and customer-centric approach make them a highly dependable choice."</p>
-          <div class="reviewer"><div class="reviewer-avatar">YD</div><div><div class="reviewer-name">Yasala Daivik</div><div class="reviewer-meta">Hyderabad · Recommended by Rgv</div></div></div>
+          <p class="review-text">"The service provided is truly excellent, marked by complete transparency at every
+            step. Their professionalism, punctuality, and customer-centric approach make them a highly dependable
+            choice."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">YD</div>
+            <div>
+              <div class="reviewer-name">Yasala Daivik</div>
+              <div class="reviewer-meta">Hyderabad · Recommended by Rgv</div>
+            </div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">"I had a great experience with Jayatsena Express! They handled my shipment end-to-end with complete care and professionalism. From packing to delivery, everything was seamless. Highly reliable - definitely recommend for international shipping!"</p>
-          <div class="reviewer"><div class="reviewer-avatar">RM</div><div><div class="reviewer-name">R Mounika</div><div class="reviewer-meta">Hyderabad · International Shipping</div></div></div>
+          <p class="review-text">"I had a great experience with Jayatsena Express! They handled my shipment end-to-end
+            with complete care and professionalism. From packing to delivery, everything was seamless. Highly reliable –
+            definitely recommend for international shipping!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">RM</div>
+            <div>
+              <div class="reviewer-name">R Mounika</div>
+              <div class="reviewer-meta">Hyderabad · International Shipping</div>
+            </div>
+          </div>
         </div>
       </div>
       <div style="text-align:center;margin-top:32px;">
-        <a
-         href="https://www.google.com/maps/place/JAYATSENA+EXPRESS+INTERNATIONAL
-         +COURIERS/@17.3337003,78.5461088,17z/data=!4m18!1m9!3m8!1s0x3bcba20b9fae761b:
-         0x667ac7b962f96ed5!2sJAYATSENA+EXPRESS+INTERNATIONAL+COURIERS!8m2!3d17.3336886!4d78.5463444!9m1!1b1!16s%2Fg%2F11xyn6jz0z!3m7!1s0x3bcba20b9fae761b:0x667ac7b962f96ed5!8m2!3d17.3336886!4d78.5463444!9m1!1b1!16s%2Fg%2F11xyn6jz0z?hl=en&entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline">
-         📝 Write a Google Review</a>
+        <a href="https://www.google.com/maps/place/JAYATSENA+EXPRESS+INTERNATIONAL+COURIERS/@17.3337003,78.5461088,17z"
+          class="btn btn-outline">📝 Write a Google Review</a>
       </div>
     </div>
   </section>
@@ -1488,32 +2261,51 @@
       </div>
       <div class="faq-list">
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">How long does international delivery take from Hyderabad?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Transit times vary by destination: USA (4–7 days), UK (3–6 days), UAE (2–4 days), Canada (5–8 days), Australia (5–9 days), Germany (12–15 business days). Express options are available for faster delivery.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">How long does international delivery take from Hyderabad?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Transit times vary by destination: USA (3–6 days), UK (3–6 days), UAE (2–4 days), Canada
+            (4–7 days), Australia (7–10 days), Germany (8–12 business days). Express options are available for faster
+            delivery.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">What items are restricted for international shipping?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Prohibited items include: cash/currency, live animals, dangerous goods (explosives, flammables), illegal substances. Some medicines, food items and electronics may require special documentation.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">What items are restricted for international shipping?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Prohibited items include: cash/currency, live animals, dangerous goods (explosives,
+            flammables), illegal substances. Some medicines, food items and electronics may require special
+            documentation.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">How can I track my shipment?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Once your shipment is picked up, you'll receive a tracking number via SMS and WhatsApp. You can track your parcel online on our partner carrier's website. We also send automated SMS updates at key milestones.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">How can I track my shipment?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Once your shipment is picked up, you'll receive a tracking number via SMS and WhatsApp. You
+            can track your parcel online on our partner carrier's website. We also send automated SMS updates at key
+            milestones.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Do you offer pickup from my home in Hyderabad?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Yes! We offer free home pickup across all major areas of Hyderabad and Secunderabad including Habsiguda, Uppal, Tarnaka, ECIL, Nacharam, Banjara Hills, Madhapur, Kukatpally, and more.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">Do you offer pickup from my home in Hyderabad?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Yes! We offer free home pickup across all major areas of Hyderabad and Secunderabad
+            including Habsiguda, Uppal, Tarnaka, ECIL, Nacharam, Banjara Hills, Madhapur, Kukatpally, and more.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">What about customs duties at the destination country?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Import customs duties are charged by the destination country and are the responsibility of the recipient. Our team will guide you on correctly declaring your goods and filling customs forms to minimise delays.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">What about customs duties at the destination country?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Import customs duties are charged by the destination country and are the responsibility of
+            the recipient. Our team will guide you on correctly declaring your goods and filling customs forms to
+            minimise delays.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Can you help with packing my shipment?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Absolutely! We provide free packing guidance and our pickup agents carry quality packing materials. For fragile or sensitive items, we offer professional repacking services.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">Can you help with packing my shipment?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Absolutely! We provide free packing guidance and our pickup agents carry quality packing
+            materials. For fragile or sensitive items, we offer professional repacking services.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Can I send medicines abroad from Hyderabad?<span class="faq-toggle">+</span></button>
-          <div class="faq-a">Yes, we specialise in medicine courier services for NRIs. Prescription medicines can be shipped with a valid doctor's prescription. Our team will confirm requirements and handle all necessary paperwork.</div>
+          <button class="faq-q" onclick="toggleFaq(this)">Can I send medicines abroad from Hyderabad?<span
+              class="faq-toggle">+</span></button>
+          <div class="faq-a">Yes, we specialise in medicine courier services for NRIs. Prescription medicines can be
+            shipped with a valid doctor's prescription. Our team will confirm requirements and handle all necessary
+            paperwork.</div>
         </div>
       </div>
     </div>
@@ -1528,109 +2320,65 @@
       </div>
       <div class="contact-grid">
         <div class="contact-info">
-          <h3><span style="color:var(--red-dark);">JAYATSENA</span> <span style="color:var(--navy-light);">EXPRESS</span></h3>
+          <h3><span style="color:var(--red-dark);">JAYATSENA</span> <span
+              style="color:var(--navy-light);">EXPRESS</span></h3>
           <p>We respond to all WhatsApp messages within 10 minutes during business hours.</p>
           <a href="https://wa.me/919885593668" class="contact-item">
-            <div class="contact-icon" style="background:#E8F5E9;"><svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    width="32" 
-    height="32" 
-    viewBox="0 0 24 24"
-    fill="#25D366">
-
-    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
-</svg></div>
+            <div class="contact-icon" style="background:#E8F5E9;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#25D366">
+                <path
+                  d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.34 4.95L2 22l5.3-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.15.83.84-3.07-.2-.32a8.05 8.05 0 0 1-1.23-4.25c0-4.45 3.62-8.07 8.07-8.07 4.45 0 8.07 3.62 8.07 8.07 0 4.45-3.62 8.15-7.88 8.15zm4.42-6.05c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.38-1.31-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
+              </svg>
+            </div>
             <div class="contact-item-text"><strong>WhatsApp</strong><span>+91 9885593668</span></div>
           </a>
           <a href="tel:+919885593668" class="contact-item">
-            <div class="contact-icon" style="background:#E6EEF9;"><svg 
-    xmlns="http://www.w3.org/2000/svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#0B3D91"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round">
-
-    <path d="M22 16.92v3a2 2 0 0 1-2.18 2
-    19.79 19.79 0 0 1-8.63-3.07
-    19.5 19.5 0 0 1-6-6
-    19.79 19.79 0 0 1-3.07-8.67
-    A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
-    12.84 12.84 0 0 0 .7 2.81
-    2 2 0 0 1-.45 2.11L8.09 9.91
-    a16 16 0 0 0 6 6l1.27-1.27
-    a2 2 0 0 1 2.11-.45
-    12.84 12.84 0 0 0 2.81.7
-    A2 2 0 0 1 22 16.92z">
-    </path>
-
-</svg></div>
+            <div class="contact-icon" style="background:#E6EEF9;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="#0B3D91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
             <div class="contact-item-text"><strong>Phone</strong><span>+91 9885593668</span></div>
           </a>
-          <a href="mailto:info@jayatsenaexpress.com" class="contact-item">
-            <div class="contact-icon" style="background:#FEF3DC;"><svg 
-    xmlns="http://www.w3.org/2000/svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#0B3D91"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round">
-
-    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-    <polyline points="3,7 12,13 21,7"></polyline>
-
-</svg></div>
-            <div class="contact-item-text"><strong>Email</strong><span>info@jayatsenaexpress.com</span></div>
+          <a href="mailto:jayatsenaexpress@gmail.com" class="contact-item">
+            <div class="contact-icon" style="background:#FEF3DC;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="#0B3D91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <polyline points="3,7 12,13 21,7" />
+              </svg>
+            </div>
+            <div class="contact-item-text"><strong>Email</strong><span>jayatsenaexpress@gmail.com</span></div>
           </a>
           <div class="contact-item" style="cursor:default;">
-            <div class="contact-icon" style="background:#FCE4EC;"><svg 
-    xmlns="http://www.w3.org/2000/svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#0B3D91"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round">
-
-    <path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0z"></path>
-    <circle cx="12" cy="10" r="3"></circle>
-
-</svg></div>
-            <div class="contact-item-text"><strong>Office</strong><span>Plot No 116/71 North EXTN Colony, Near SANTHOSHIMATHA TEMPLE, Hasthinapuram, Hyderabad – 500079</span></div>
+            <div class="contact-icon" style="background:#FCE4EC;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#0B3D91">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" />
+              </svg>
+            </div>
+            <div class="contact-item-text"><strong>Office</strong><span>Plot No 116/71 North EXTN Colony, Near
+                Santhoshimatha Temple, Hasthinapuram, Hyderabad – 500079</span></div>
           </div>
           <div class="contact-item" style="cursor:default;">
-            <div class="contact-icon" style="background:#F3E5F5;"><svg 
-    xmlns="http://www.w3.org/2000/svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#0B3D91"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round">
-
-    <circle cx="12" cy="12" r="10"></circle>
-    <polyline points="12 6 12 12 16 14"></polyline>
-
-</svg></div>
-            <div class="contact-item-text"><strong>Business Hours</strong><span>Mon – Sat: 9:00 AM – 7:00 PM</span></div>
+            <div class="contact-icon" style="background:#F3E5F5;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="#0B3D91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div class="contact-item-text"><strong>Business Hours</strong><span>Mon – Sun: 9:00 AM – 9:00 PM</span>
+            </div>
           </div>
         </div>
 
         <div class="map-frame">
-          <!-- <span>🗺️</span>
-          <p style="color:var(--gray-700);font-size:14px;">Plot no 116/71, Anupama Bazaar, North Extension Colony, Hastinapuram, Hyderabad – 500079</p> -->
-          <img src="/map.png" style="border-radius:10px;"/>
-          <a href="https://maps.app.goo.gl/xK4EDhiBe3X1zHvF9" class="btn btn-outline" style="font-size:13px;padding:10px 20px;" target="_blank">Open in Google Maps →</a>
+          <img src="/map.png" style="border-radius:10px 10px 0 0;width:100%;" alt="Office location map" />
+          <a href="https://maps.app.goo.gl/xK4EDhiBe3X1zHvF9" class="btn btn-outline"
+            style="font-size:13px;padding:10px 20px;margin-bottom:16px;" target="_blank">Open in Google Maps →</a>
         </div>
       </div>
     </div>
@@ -1642,23 +2390,26 @@
       <div class="footer-grid">
         <div class="footer-about">
           <div class="logo">
-            <div class="logo-icon">
-              <img src="/logo.jpeg" alt="JAYATSENA EXPRESS"/>
-            </div>
-            <div>
-              <div class="footer-logo-text-main"><span style="color:var(--red-dark);">JAYATSENA</span> <span style="color:var(--navy-light);">EXPRESS</span></div>
-              <div class="logo-text-sub" style="color:rgba(255,255,255,0.6);">Delivering Trust Across Borders</div>
-            </div>
+            <img src="/updated2_logo.png" alt="Jayatsena Express" style="max-width:180px;" />
           </div>
-          <p>Hyderabad's most trusted international courier partner. Shipping to 22+ countries with free doorstep pickup, live tracking and affordable rates.</p>
+          <p>Hyderabad's most trusted international courier partner. Shipping to 180+ countries with free doorstep
+            pickup, live tracking and affordable rates.</p>
           <div class="footer-social">
-            <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2V9.6c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.3V12h2.5l-.4 3h-2.1v7A10 10 0 0 0 22 12z"/></svg></a>
-            <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7.5a3 3 0 1 1 3-3 3 3 0 0 1-3 3z"/></svg></a>
-            <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.1l-4.8-6.3L6.7 22H3.6l7.3-8.4L1 2h6.2l4.3 5.7L18.9 2z"/></svg></a>
-            <a href="https://wa.me/919885593668" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5zM12 21.8c-1.8 0-3.6-.5-5.1-1.5l-.4-.2-3.7 1 1-3.6-.3-.4A9.8 9.8 0 1 1 12 21.8z"/></svg></a>
+            <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2V9.6c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.3V12h2.5l-.4 3h-2.1v7A10 10 0 0 0 22 12z" />
+              </svg></a>
+            <a href="https://www.instagram.com/jayatsenainternationalcouriers" class="social-btn"><svg
+                viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7.5a3 3 0 1 1 3-3 3 3 0 0 1-3 3z" />
+              </svg></a>
+            <a href="https://wa.me/919885593668" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5zM12 21.8c-1.8 0-3.6-.5-5.1-1.5l-.4-.2-3.7 1 1-3.6-.3-.4A9.8 9.8 0 1 1 12 21.8z" />
+              </svg></a>
           </div>
         </div>
-
         <div class="footer-col">
           <h5>Services</h5>
           <ul>
@@ -1671,7 +2422,6 @@
             <li><a href="#">Cargo Services</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h5>Destinations</h5>
           <ul>
@@ -1684,21 +2434,7 @@
             <li><a href="#">Courier to Singapore</a></li>
           </ul>
         </div>
-
-        <!-- <div class="footer-col">
-          <h5>Local Areas</h5>
-          <ul>
-            <li><a href="#">Courier Hasthinapuram</a></li>
-            <li><a href="#">Courier Uppal</a></li>
-            <li><a href="#">Courier Secunderabad</a></li>
-            <li><a href="#">Courier Tarnaka</a></li>
-            <li><a href="#">Courier ECIL</a></li>
-            <li><a href="#">Courier Nacharam</a></li>
-            <li><a href="#">All Hyderabad Areas</a></li>
-          </ul>
-        </div> -->
       </div>
-
       <div class="footer-bottom">
         <span>© 2026 Jayatsena Express. All rights reserved. | Hyderabad, Telangana, India</span>
         <span>
@@ -1719,8 +2455,10 @@
     function submitHeroForm() {
       const name = document.getElementById('heroName').value.trim();
       const country = document.getElementById('heroCountry').value;
-      if (!name || !country) { alert('Please fill in your name and destination country.'); return; }
-      const msg = `Hi Jayatsena Express! I need a courier quote.\nName: ${name}\nDestination: ${country}\nItem: ${document.getElementById('heroItem').value}\nWeight: ${document.getElementById('heroWeight').value}`;
+      const item = document.getElementById('heroItem').value;
+      const weight = document.getElementById('heroweight').value.trim();
+      if (!name || !country || !item || !weight) { alert('Please fill in all fields.'); return; }
+      const msg = `Hi Jayatsena Express! I need a courier quote.\nName: ${name}\nDestination: ${country}\nItem: ${item}\nWeight: ${weight}kg`;
       window.open('https://wa.me/919885593668?text=' + encodeURIComponent(msg), '_blank');
       document.getElementById('heroSuccess').style.display = 'block';
     }
@@ -1729,28 +2467,48 @@
     function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); document.body.style.overflow = ''; }
 
     document.querySelectorAll('.local-tab').forEach(tab => {
-      tab.addEventListener('click', function() {
+      tab.addEventListener('click', function () {
         document.querySelectorAll('.local-tab').forEach(t => t.classList.remove('active'));
         this.classList.add('active');
       });
     });
 
     let popupShown = false;
-    document.addEventListener('mouseleave', function(e) {
+    document.addEventListener('mouseleave', function (e) {
       if (e.clientY < 5 && !popupShown) {
         popupShown = true;
         setTimeout(() => document.getElementById('exitPopup').classList.add('show'), 500);
       }
     });
-
     setTimeout(() => {
       if (!popupShown && window.innerWidth < 768) {
         popupShown = true;
         document.getElementById('exitPopup').classList.add('show');
       }
     }, 45000);
-
     function closePopup() { document.getElementById('exitPopup').classList.remove('show'); }
+
+    /* Hero Slideshow */
+    (function () {
+      const slides = document.querySelectorAll('.hero-slide');
+      const dots = document.querySelectorAll('.hero-dot');
+      if (!slides.length) return;
+      let current = 0, timer;
+
+      function show(i) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = i;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+      }
+      function next() { show((current + 1) % slides.length); }
+      function start() { timer = setInterval(next, 5000); }
+
+      window.goToSlide = function (i) { clearInterval(timer); show(i); start(); };
+      start();
+    })();
   </script>
 </body>
+
 </html>
